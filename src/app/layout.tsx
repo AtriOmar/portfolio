@@ -11,6 +11,7 @@ const rubik = Rubik({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Omar Atri",
   description: "Portfolio of the Full Stack Developer Omar Atri",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:30000"),
 };
 
 export default function RootLayout({
