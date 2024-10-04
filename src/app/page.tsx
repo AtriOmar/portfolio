@@ -1,7 +1,7 @@
 import Image from "next/image";
 import TableOfContent from "@/components/TableOfContent";
 import Nav from "@/components/Nav";
-import Hero from "@/components/Hero";
+import Hero from "@/components/hero/Hero";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
 import { useEffect } from "react";
