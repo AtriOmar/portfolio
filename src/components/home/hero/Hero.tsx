@@ -45,7 +45,7 @@ export default function Hero() {
               <div className="-translate-y-1/2 size-3 border-4 border-slate-900 rounded-full bg-red-500 box-content"></div>
             </div>
           </div>
-          <div className="absolute inset-0 rotate-">
+          <div className="absolute inset-0 -rotate-90">
             <div className="absolute inset-0 flex justify-center animate-[spin_8s_linear_infinite]">
               <div className="-translate-y-1/2 size-3 border-4 border-slate-900 rounded-full bg-red-500 box-content"></div>
             </div>
