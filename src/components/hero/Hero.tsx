@@ -26,8 +26,30 @@ export default function Hero() {
         </ShowOnScroll> */}
       </div>
       <ShowOnScroll>
-        <div className="relative w-full max-w-[300px] aspect-square rounded-full overflow-hidden outline outline-4 outline-offset-8 outline-red-500">
-          <Image src={Omar} alt="Omar Atri Photo" />
+        <div className="relative p-3 rounded-full bg-black">
+          <div className="relative w-full max-w-[300px] aspect-square rounded-full overflow-hidden outline outline-4 outline-offset-8 outline-red-500">
+            <Image src={Omar} alt="Omar Atri Photo" />
+          </div>
+          <div className="absolute inset-0">
+            <div className="absolute inset-0 flex justify-center animate-[spin_8s_linear_infinite]">
+              <div className="-translate-y-1/2 size-3 border-4 border-slate-900 rounded-full bg-red-500 box-content"></div>
+            </div>
+          </div>
+          <div className="absolute inset-0 rotate-90">
+            <div className="absolute inset-0 flex justify-center animate-[spin_8s_linear_infinite]">
+              <div className="-translate-y-1/2 size-3 border-4 border-slate-900 rounded-full bg-red-500 box-content"></div>
+            </div>
+          </div>
+          <div className="absolute inset-0 rotate-180">
+            <div className="absolute inset-0 flex justify-center animate-[spin_8s_linear_infinite]">
+              <div className="-translate-y-1/2 size-3 border-4 border-slate-900 rounded-full bg-red-500 box-content"></div>
+            </div>
+          </div>
+          <div className="absolute inset-0 -rotate-90">
+            <div className="absolute inset-0 flex justify-center animate-[spin_8s_linear_infinite]">
+              <div className="-translate-y-1/2 size-3 border-4 border-slate-900 rounded-full bg-red-500 box-content"></div>
+            </div>
+          </div>
         </div>
       </ShowOnScroll>
     </section>
