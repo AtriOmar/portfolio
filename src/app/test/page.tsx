@@ -7,6 +7,8 @@ export default function page() {
 
   console.log(headersList.get("x-pathname"));
   console.log(headersList.get("next-url"));
+  console.log(headersList.get("x-real-ip"));
+  console.log(headersList.get("x-forwarded-for"));
 
   return (
     <div>
