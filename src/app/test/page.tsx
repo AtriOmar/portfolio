@@ -1,3 +1,4 @@
+import { logIpAddress } from "@/app/test/actions";
 import Button from "@/components/Button";
 import { headers } from "next/headers";
 
@@ -9,6 +10,8 @@ export default function page() {
   console.log(headersList.get("next-url"));
   console.log(headersList.get("x-real-ip"));
   console.log(headersList.get("x-forwarded-for"));
+
+  logIpAddress();
 
   return (
     <div>
